@@ -398,7 +398,6 @@ void print_state(int final_state) {
     if (!final_state) {
          printf("----- State after cycle %d -----\n", total_clock_cycles);
     } else {
-         printf("\n===== FINAL STATE =====\n");
          printf("Total clock cycles: %d\n", total_clock_cycles);
     }
      printf("PC: 0x%x\n", pc);
